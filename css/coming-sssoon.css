@@ -16,6 +16,19 @@ style="background-attachment:fixed ; background-image: url('images/fondoInterior
 }
 
 @media (max-width: 768px){ 
+        .navbar-transparent{
+        padding-top: 0px;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+        .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-transparent .dropdown-menu > li > a:hover, .navbar-transparent .dropdown-menu > li > a:focus, [class*="navbar-ct"] .dropdown-menu > li > a:hover, [class*="navbar-ct"] .dropdown-menu > li > a:focus{
+        color: #FFFFFF;
+        background-color: rgba(0,0,0,0);
+        opacity: 1;
+    }
+    .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a, [class*="navbar-ct"] .dropdown-menu > li > a {
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
     .main {
 background-attachment:fixed ;
  background-image: url('../images/fondoInteriorChico.jpg');
@@ -38,19 +51,7 @@ background-attachment:fixed ;
     .oculto {
         display: none;
     }
-    .navbar-transparent{
-        padding-top: 0px;
-        background-color: rgba(0, 0, 0, 0.75);
-    }
-    .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-transparent .dropdown-menu > li > a:hover, .navbar-transparent .dropdown-menu > li > a:focus, [class*="navbar-ct"] .dropdown-menu > li > a:hover, [class*="navbar-ct"] .dropdown-menu > li > a:focus{
-        color: #FFFFFF;
-        background-color: rgba(0,0,0,0);
-        opacity: 1;
-    }
-    .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a, [class*="navbar-ct"] .dropdown-menu > li > a {
-        color: #FFFFFF;
-        opacity: 0.8;
-    }
+
     .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
         background-color: rgba(0,0,0,0);
         border-color: #428BCA;
@@ -332,7 +333,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-color: rgba(255, 255, 255, 0.96);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.navbar-transparent{
+/*.navbar-transparent{
     padding-top: 15px;
     background-color: rgba(0,0,0,.0);
 }
@@ -407,7 +408,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .navbar-transparent .btn-default, [class*="navbar-ct"] .btn-default{
     color: #FFFFFF;
     border-color: #FFFFFF;
-}
+}*/
 [class*="navbar-ct"] .btn-default.btn-fill{
     color: #777777;
     background-color: #FFFFFF;
